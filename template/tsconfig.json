@@ -18,5 +18,10 @@
     }
   },
   "include": ["./src/**/*.ts", "./src/**/*.tsx"],
-  "exclude": ["./built", "node_modules", "./src/**/*.test.ts"]
+  "exclude": [
+    "./built",
+    "node_modules",
+    "./src/**/*.test.ts",
+    "./src/**/*.test.tsx"
+  ]
 }
