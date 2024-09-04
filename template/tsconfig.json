@@ -3,7 +3,7 @@
     "outDir": "dist",
     "module": "ESNext",
     "target": "ES6",
-    "lib": ["DOM"],
+    "lib": ["ES6", "DOM"],
     "allowJs": true,
     "strict": true,
     "jsx": "preserve",
