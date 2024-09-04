@@ -2,13 +2,14 @@
   "name": "create-react-lib",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "node build.js",
-    "dev": "node dev.js"
+    "dev": "node dev.js",
+    "publish": "npm publish --accesss public"
   },
   "repository": {
     "type": "git",
