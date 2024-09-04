@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source_dir="$( dirname "${BASH_SOURCE[0]}" )/../@alan-ng/create-react-lib/template/"
+source_dir="$( dirname "${BASH_SOURCE[0]}" )/../@tinychange/new-react-lib/template/"
 if [[ "$1" == "" ]]
 then
   read -p 'Enter your lib name: ' project_name
