@@ -15,6 +15,7 @@ cp -r $source_dir"../README.md" $project_name
 cd $project_name
 git init
 mv gitignore .gitignore
+mv npmignore .npmignore
 
 echo "Running yarn install..."
 yarn install
