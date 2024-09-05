@@ -5,15 +5,15 @@
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "test": "jest",
     "build": "node build.js",
-    "dev": "node dev.js",
-    "publish": "npm publish --accesss public"
+    "dev": "node dev.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/alanng2050/new-react-lib.git"
   },
   "keywords": [],
   "author": "Alan",
@@ -30,10 +30,12 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "prettier": "^3.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "tsc-alias": "^1.8.8",
     "typescript": "^5.1.6"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
