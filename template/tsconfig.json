@@ -3,7 +3,7 @@
     "outDir": "dist",
     "module": "Node16",
     "target": "ES6",
-    "lib": ["ES6", "DOM"],
+    "lib": ["ESNext", "DOM"],
     "allowJs": true,
     "strict": true,
     "jsx": "react-jsx",
